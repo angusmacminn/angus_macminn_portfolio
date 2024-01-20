@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angus MacMinn</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.js"></script>
+
+</head>
+<body>
+        <canvas class="webgl"></canvas>
+
+
+
+            <div class ="spacer"></div>
+            <div class ="spacer"></div>
+
+    <main>
+            <div class="intros">
+                <div class="left-col">
+                    <div class="intro1">
+                        <p>I am an interactive artist and designer currently based in Montreal.
+                           I hold a Bachelors degree in Digital Communications from Humber College.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="right-col">
+                    <div class="intro2">
+                        <p>I have a passion for creating interactive experiences that engange users in immersive settings,
+                         whether it be a physical space, or digital. <p>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+
+    <div class ="spacer1"></div>
+
+
+    <div class="horizontal_content">
+
+                    <div class="horizontal_item">
+                        <div class="enter_img">
+                                <a href="enter.html" class="enter-link"> Enter.</a>
+                        </div>
+                    </div>
+                
+                    <div class="horizontal_item">
+                        <div class="human_img">
+                                <a href="human_nature.html" class="human-link">Human Nature</a>
+                        </div>
+                    </div>
+                
+                    <div class="horizontal_item">
+                        <div class="weather_img">
+                                <a href="weather_visualisation.html" class="weather-link"> Weather Visualisation</a>
+                        </div>
+                    </div>
+                
+                    <div class="horizontal_item">
+                        <div class="interactive_img">
+                                <a href="interactive.html" class="interactive-link"> Interactive Artworks</a>
+                        </div>
+                    </div>
+                
+
+                    <div class="horizontal_item">
+                        <div class="generative_img">
+                            <div class="generative_art">
+                                <a href="generative.html" class="generative-link"> Generative Artworks</a>
+                            </div>
+                        </div>
+                    </div>
+                
+    </div>
+
+
+    <div class ="spacer1"></div>
+   
+
+    <div class="contact-wrapper">
+        <div class="email">
+            <h2>
+            To get in touch, you can reach me at 
+            angus13@hotmail.ca
+            </h2>
+        </div>
+
+        <div class="instagram">
+            <h2>
+                To see more of my work, check out my instagram at <a href="https://www.instagram.com/angus.macminn/" class="insta-link">@angus.macminn</a>
+            </h2>
+        </div>
+
+
+
+    </div>
+
+
+        <script type="module" src="./script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script> 
+
+
+
+      <script>
+                let tl = gsap.timeline(
+                    {
+                        scrollTrigger: {
+                            trigger: '.intro1',
+                            start: '-40% center',
+                            end: '150% center',
+                            scrub: false,
+                            markers: false,
+                            toggleActions: 'play reverse play reverse'
+
+                        }
+                    }
+                )
+
+                tl.to('.intro1', {
+                    x: 650,
+                    duration: 0.65
+                })
+
+                let tl1 = gsap.timeline(
+                    {
+                        scrollTrigger: {
+                            trigger: '.intro2',
+                            start: '-50% center',
+                            end: '100% center',
+                            scrub: false,
+                            markers: true,
+                            toggleActions: 'play reverse play reverse'
+
+                        }
+                    }
+                )
+
+                tl1.to('.intro2', {
+                    x:-700,
+                    duration: 1
+                })
+            </script> 
+
+
+</body>
+<script type="module" src="./script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script> 
+</html>
