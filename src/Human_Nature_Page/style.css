@@ -1,0 +1,83 @@
+/*                               */
+
+.human_img {
+    padding: 100px 150px;
+    width: 250px;
+    height: 150px;
+    background-image: url(Images/human4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    align-content: center;
+    opacity: 40%;
+    transition: 800ms;
+}
+
+.human-link {
+    font-family: Atak;
+    font-size: 80px;
+    font-weight: 900;
+    color: #4d4d4d;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+
+/*Human nature Page*/
+
+.human-wrapper {
+    background-color: #06337a;
+    padding: 0;
+    overflow: hidden;
+}
+
+.human-nature-content {
+    padding-left: 3%;
+    display: block;
+    width: 40%;
+}
+
+.human-video1 {
+    display: block;
+    width: 700px;
+    align-items: center;
+}
+
+.human-video2 {
+    display: block;
+    width: 700px;
+    align-items: center;
+}
+
+.humanv2 {
+    position: absolute;
+    width: 50%;
+    align-items: center;
+    right: -50px;
+    top: 1200px;
+}
+
+.human-video3 {
+    display: block;
+    width: 700px;
+    align-items: center;
+}
+
+.humanv3 {
+    position: absolute;
+    width: 25%;
+    align-items: center;
+    right: 180px;
+    top: 1900px;
+}
+
+p1 {
+    font-family: Hemming;
+    font-size: 20px;
+    padding: 0;
+}

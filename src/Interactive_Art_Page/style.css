@@ -1,0 +1,90 @@
+.interactive-link {
+    font-family: Atak;
+    font-size: 60px;
+    font-weight: 900;
+    color: #4d4d4d;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+.interactive_img {
+    padding: 100px 150px;
+    width: 250px;
+    height: 150px;
+    background-image: url(Images/interactive_screenshot.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    opacity: 40%;
+    transition: 800ms;
+}
+
+
+/* Interactive Art page */
+
+.interactive-wrapper {
+    background-color: #06337a;
+    padding: 0;
+    overflow: hidden;
+}
+
+.interactive-content {
+    display: flex;
+    margin: 0;
+    padding-left: 5%;
+    display: block;
+    width: 40%;
+    overflow: hidden;
+}
+
+.interactive-video1 {
+    display: flex;
+    width: 500px;
+    align-items: center;
+    height: 1050px;
+}
+
+.interv1 {
+    position: absolute;
+    max-width: 100%;
+    align-items: center;
+    right: 50px;
+    top: 600px;
+}
+
+.interactive-video2 {
+    display: flex;
+    width: 500px;
+    align-items: center;
+    height: 800px;
+}
+
+.interv2 {
+    display: flex;
+    max-width: 100%;
+    margin: 0;
+    align-items: center;
+    right: 50px;
+    top: 1500px;
+}
+
+.interactive-video3 {
+    display: flex;
+    width: 500px;
+    align-items: center;
+    height: 1200px;
+}
+
+.interv3 {
+    display: flex;
+    max-width: 100%;
+    margin: 0;
+    align-items: center;
+    right: 50px;
+    top: 2500px;
+}
