@@ -219,7 +219,7 @@
             /* padding: 100px 150px; */
             width: 50vw;
             height: 45vh;
-            background-image: url(Images/Enter_screenshot9.jpg);
+            background-image: url(/static/Images/Enter_screenshot9.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             border-radius: 10px;
