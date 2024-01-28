@@ -1,5 +1,5 @@
 {
     "rewrites": [
-        { "source": "../angus_macminn_portfolio", "destination": "/" }
+        { "source": "/src", "destination": "/src/enter/index.html" }
     ]
 }
