@@ -13,7 +13,8 @@ export default {
     build: {
         outDir: '../dist',
         emptyOutDir: true,
-        sourcemap: true
+        sourcemap: true,
+        assetsInlineLimit: 204096
     },
 
     plugins: [
