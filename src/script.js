@@ -49,14 +49,14 @@ document.addEventListener('DOMContentLoaded', function() {
          * Textures
          */
     const textureLoader = new THREE.TextureLoader()
-    const matcapTexture = textureLoader.load('textures/matcaps/2.png')
-    const texture = textureLoader.load('/textures/texture.jpg')
-    const alpha = textureLoader.load('/textures/alpha.jpg')
-    const alpha1 = textureLoader.load('/textures/alpha1.jpg')
-    const alpha2 = textureLoader.load('/textures/alpha2.jpg')
-    const height1 = textureLoader.load('HeightMaps/HM1.jpg')
-    const height = textureLoader.load('/textures/height1.jpg')
-    const height2 = textureLoader.load('/HeightMaps/HM4.jpg')
+    const matcapTexture = textureLoader.load('../static/textures/matcaps/2.png')
+        // const texture = textureLoader.load('/textures/texture.jpg')
+    const alpha = textureLoader.load('../static/textures/alpha.jpg')
+        // const alpha1 = textureLoader.load('/textures/alpha1.jpg')
+        // const alpha2 = textureLoader.load('/textures/alpha2.jpg')
+    const height1 = textureLoader.load('../static/HeightMaps/HM1.jpg')
+    const height = textureLoader.load('../static/textures/height1.jpg')
+        // const height2 = textureLoader.load('/HeightMaps/HM4.jpg')
 
 
     //Lenis smooth scroll
@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //Angus MacMinn text
     const fontLoader = new FontLoader()
     fontLoader.load(
-        '/fonts/Unnamed_Light_Regular.json',
+        '../static/fonts/Unnamed_Light_Regular.json',
         (font) => {
             // Material
             const material = new THREE.MeshMatcapMaterial({ matcap: matcapTexture })
@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //Welcome Text
 
     fontLoader.load(
-        '/fonts/helvetiker_regular.typeface.json',
+        '../static/fonts/helvetiker_regular.typeface.json',
         (font) => {
             // Text
             const WelcomeGeometry = new TextGeometry(
@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     //About Me text
     fontLoader.load(
-        '/fonts/helvetiker_regular.typeface.json',
+        '../static/fonts/helvetiker_regular.typeface.json',
         (font) => {
             // Text
             const AboutMeTextGeometry = new TextGeometry(
@@ -211,7 +211,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     //Projects Text
     fontLoader.load(
-        '/fonts/helvetiker_regular.typeface.json',
+        '../static/fonts/helvetiker_regular.typeface.json',
         (font) => {
             // Text
             const ProjectsTextGeometry = new TextGeometry(
@@ -241,7 +241,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     //Contact me Text
     fontLoader.load(
-        '/fonts/helvetiker_regular.typeface.json',
+        '../static/fonts/helvetiker_regular.typeface.json',
         (font) => {
             // Text
             const ContactTextGeometry = new TextGeometry(
