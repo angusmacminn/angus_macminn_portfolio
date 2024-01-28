@@ -219,7 +219,7 @@
             /* padding: 100px 150px; */
             width: 50vw;
             height: 45vh;
-            background-image: url(/Images/Enter_screenshot9.jpg);
+            background-image: url(../static/Images/Enter_screenshot9.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             border-radius: 10px;
@@ -251,7 +251,7 @@
             /* padding: 100px 150px; */
             width: 50vw;
             height: 45vh;
-            background-image: url(/Images/human4.jpg);
+            background-image: url(../static/Images/human4.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             border-radius: 10px;
@@ -281,7 +281,7 @@
             /* padding: 100px 150px; */
             width: 50vw;
             height: 45vh;
-            background-image: url(/Images/weather_img3.jpg);
+            background-image: url(../static/Images/weather_img3.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             border-radius: 10px;
@@ -310,7 +310,7 @@
             /* padding: 100px 150px; */
             width: 50vw;
             height: 45vh;
-            background-image: url(/Images/interactive_screenshot.jpg);
+            background-image: url(../static/Images/interactive_screenshot.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             border-radius: 10px;
@@ -339,7 +339,7 @@
             /* padding: 100px 150px; */
             width: 50vw;
             height: 45vh;
-            background-image: url(/Images/generative_screenshot2.jpg);
+            background-image: url(../static/Images/generative_screenshot2.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             border-radius: 10px;
