@@ -2,27 +2,38 @@
 
 .enter-wrapper {
     background-color: #06337a;
-    padding: 0;
-    overflow: hidden;
-    height: 200%;
+    padding: 10px;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25.6em, 1fr));
+    gap: 1em;
+    /* height: 200%; */
+}
+
+.enter_videos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .enter_content {
     margin: 0;
-    padding-left: 3%;
+    /* padding-left: 3%; */
     display: block;
-    width: 40%;
+    width: 100%;
 }
 
 .enter-video1 {
     display: block;
     width: 100%;
     align-items: center;
+    gap: 1em;
 }
 
 video {
-    position: absolute;
-    width: 50%;
+    /* position: absolute; */
+    /* width: 50%; */
     max-width: 100%;
     align-items: center;
     right: -50px;
@@ -32,13 +43,13 @@ video {
 
 .enter-video2 {
     display: block;
-    width: 100%;
+    /* width: 100%; */
     align-items: center;
 }
 
 .enterv2 {
-    position: absolute;
-    width: 50%;
+    /* position: absolute; */
+    width: 100%;
     align-items: center;
     right: -50px;
     top: 1200px;
