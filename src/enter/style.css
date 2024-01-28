@@ -54,11 +54,3 @@ video {
     right: -50px;
     top: 1200px;
 }
-
-.enter_img:hover {
-    opacity: 100%;
-}
-
-.enter-link:hover {
-    color: #ffffff;
-}

@@ -404,3 +404,21 @@
             text-decoration: none;
             transition: 500ms;
         }
+        /* Microinteractions */
+        
+        .enter_img:hover,
+        .human_img:hover,
+        .weather_img:hover,
+        .interactive_img:hover,
+        .generative_img:hover {
+            opacity: 100%;
+        }
+        
+        .enter-link:hover,
+        .human-link:hover,
+        .weather-link:hover,
+        .interactive-link:hover,
+        .generative-link:hover,
+        .insta-link:hover {
+            color: #ffffff;
+        }
