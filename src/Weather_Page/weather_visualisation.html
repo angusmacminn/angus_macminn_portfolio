@@ -1,30 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Live Weather Visualisation - Angus MacMin</title>
+    <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 <div class="weather-wrapper">
     <div class="weather-content">
         <h1> Live Weather Visualisation</h1>
-        <p> 
+        <p>
             TouchDesigner, Python, 2023
         </p>
 
-        <p> This was a personal project where I set out to use a weather API
-            to create a real-time visualisation of  cities weather conditions.
-            This rendered video shows me changing between cities to showcase how
-            different climates look.
+        <p> This was a personal project where I set out to use a weather API to create a real-time visualisation of cities weather conditions. This rendered video shows me changing between cities to showcase how different climates look.
         </p>
 
         <p>
-            The temperature, wind speed, and cloud coverage were the three variables
-            I used that would affect the sphere in different ways, creating a unique 
-            visualisation for each city.
+            The temperature, wind speed, and cloud coverage were the three variables I used that would affect the sphere in different ways, creating a unique visualisation for each city.
         </p>
-     
+
         <div class="weather-video">
             <video class="wv1" autoplay loop muted>
                 <source src ="WeatherAPIOutput1.mov">
@@ -36,8 +33,9 @@
 </div>
 
 
-    <script type="module" src="./script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script>
+<!-- <script type="module" src="./script.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script>
+
 </html>
