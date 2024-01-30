@@ -6,6 +6,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(25.6em, 1fr));
     gap: 1em;
+    padding: 3%;
 }
 
 .human-nature-content {
@@ -19,11 +20,6 @@
     flex-direction: column;
     justify-content: center;
     gap: .5rem;
-}
-
-.human-nature-content,
-.human_nature_videos {
-    padding: 3%;
 }
 
 .human-video1,
@@ -42,9 +38,11 @@
     .human_nature_videos,
     .human-nature-content {
         width: 80%;
+        padding: 3%;
     }
     .human-wrapper {
         display: block;
         width: 100%;
+        padding: 0;
     }
 }
