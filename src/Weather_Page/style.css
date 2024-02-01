@@ -1,52 +1,48 @@
-.weather_img {
-    padding: 100px 150px;
-    width: 250px;
-    height: 150px;
-    background-image: url(Images/weather_img3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-    opacity: 40%;
-    transition: 800ms;
-}
-
-.weather-link {
-    font-family: Atak;
-    font-size: 60px;
-    font-weight: 900;
-    color: #4d4d4d;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    text-decoration: none;
-    transition: 500ms;
-}
-
-
 /*Weather page*/
+
+body {
+    background-color: #06337a;
+}
 
 .weather-wrapper {
     background-color: #06337a;
-    padding: 0;
-    overflow: hidden;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25.6em, 1fr));
+    gap: 1em;
+    padding: 3%;
 }
 
 .weather-content {
-    margin: 0;
-    padding-left: 3%;
     display: block;
-    width: 40%;
+    width: 100%;
+}
+
+.weather-videos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: .5rem;
 }
 
 .weather-video {
     display: block;
-    width: 700px;
-    align-items: center;
-    padding-right: 50px;
 }
 
 .wv1 {
-    padding-right: 6%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 45rem) {
+    .weather-videos,
+    .weather-content {
+        width: 80%;
+        padding: 3%;
+    }
+    .weather-wrapper {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
 }
