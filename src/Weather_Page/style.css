@@ -6,6 +6,7 @@ body {
 
 .weather-wrapper {
     background-color: #06337a;
+    height: 100vh;
     overflow-x: hidden;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(25.6em, 1fr));
