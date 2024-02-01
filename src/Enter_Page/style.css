@@ -1,5 +1,9 @@
 /*Enter Page*/
 
+body {
+    background-color: #06337a;
+}
+
 .enter-wrapper {
     background-color: #06337a;
     padding: 10px;

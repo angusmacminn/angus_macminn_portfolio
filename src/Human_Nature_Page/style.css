@@ -1,5 +1,9 @@
 /*Human nature Page*/
 
+body {
+    background-color: #06337a;
+}
+
 .human-wrapper {
     background-color: #06337a;
     overflow-x: hidden;
