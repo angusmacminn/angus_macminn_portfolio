@@ -2,11 +2,12 @@
 
 body {
     background-color: #06337a;
+    /* overflow-y: hidden; */
 }
 
 .weather-wrapper {
     background-color: #06337a;
-    height: 100vh;
+    /* height: 100vh; */
     overflow-x: hidden;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
