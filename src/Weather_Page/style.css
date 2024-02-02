@@ -7,11 +7,10 @@ body {
 
 .weather-wrapper {
     background-color: #06337a;
-    /* height: 100vh; */
     overflow-x: hidden;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
-    gap: 1em;
+    gap: 1%;
     padding: 3%;
 }
 
@@ -45,6 +44,7 @@ body {
     .weather-wrapper {
         display: block;
         width: 100%;
+        height: 100vh;
         padding: 0;
     }
 }
