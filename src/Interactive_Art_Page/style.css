@@ -7,9 +7,7 @@
 }
 
 .interactive-content {
-    /* display: flex; */
     margin: 0;
-    /* padding-left: 5%; */
     display: block;
     width: 60%;
     overflow: hidden;
@@ -21,56 +19,35 @@
 }
 
 .interactive-video1 {
-    /* display: flex; */
-    /* width: 500px; */
     width: 100%;
     align-items: center;
-    /* height: 1050px; */
 }
 
 .interv1 {
-    /* position: absolute; */
-    /* max-width: 100%; */
     width: 100%;
     align-items: center;
-    /* right: 50px; */
-    /* top: 600px; */
 }
 
 .interactive-video2 {
-    /* display: flex; */
-    /* width: 500px; */
     width: 100%;
     align-items: center;
-    /* height: 800px; */
 }
 
 .interv2 {
-    /* display: flex; */
-    /* max-width: 100%; */
     width: 100%;
     margin: 0;
     align-items: center;
-    /* right: 50px; */
-    /* top: 1500px; */
 }
 
 .interactive-video3 {
-    /* display: flex; */
-    /* width: 500px; */
     width: 100%;
     align-items: center;
-    /* height: 1200px; */
 }
 
 .interv3 {
-    /* display: flex; */
-    /* max-width: 100%; */
     width: 100%;
     margin: 0;
     align-items: center;
-    /* right: 50px; */
-    /* top: 2500px; */
 }
 
 @media only screen and (max-width: 45rem) {
