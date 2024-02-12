@@ -41,31 +41,6 @@
             font-style: normal;
             font-display: swap;
         }
-        /* Add media queries for responsive design */
-        
-        @media only screen and (max-width: 768px) {
-            main {
-                /* flex-direction: column; */
-            }
-            /* .left-col,
-  .right-col {
-      width: 100%;
-  }
-  .intros {
-      top: 0;
-  }
-  .intro1,
-  .intro2 {
-      left: 0;
-      right: 0;
-  } */
-            h1,
-            h2,
-            h3,
-            p {
-                /* font-size: 20px; */
-            }
-        }
         
         .spacer {
             height: 120vh;
@@ -161,37 +136,12 @@
             /* width: 1ch; */
             /* width: clamp(2ch, 5ch, 10ch); */
         }
-        /* Media queries for responsive design */
-        /* @media only screen and (min-width: 768px) {
-    main {
-        flex-direction: row;
-    }
-    .left-col,
-    .right-col {
-        width: 45%;
-    }
-    .intros {
-        top: 0;
-    }
-    .intro1 {
-        left: 0;
-    }
-    .intro2 {
-        right: 0;
-    }
-    h1,
-    h2,
-    h3,
-    p {
-        font-size: 1em;
-    }
-} */
         
-        h1,
-        h2,
-        h3,
-        p {
-            /* font-size: 1em; */
+        @media only screen and (min-width: 80rem) {
+            .intros {
+                /* background-color: red; */
+                /* transform: scale(0.4); */
+            }
         }
         /* Project */
         
@@ -367,8 +317,9 @@
             text-decoration: none;
             transition: 500ms;
         }
+        /* Mobile */
         
-        @media only screen and (max-width: 500px) {
+        @media only screen and (max-width: 45rem) {
             .enter_img,
             .human_img,
             .weather_img,
@@ -384,6 +335,24 @@
             .interactive-link,
             .generative-link {
                 font-size: 2.2em;
+            }
+        }
+        /* Ipad */
+        
+        @media only screen and (max-width: 55rem) {
+            .enter-link,
+            .human-link,
+            .weather-link,
+            .interactive-link,
+            .generative-link {
+                font-size: 4.2em;
+            }
+        }
+        
+        @media only screen and (min-width: 718px) and (max-width: 930px) {
+            html,
+            body {
+                background-color: #06337a;
             }
         }
         /* Contact */
