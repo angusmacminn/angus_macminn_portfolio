@@ -4,50 +4,40 @@
     background-color: #06337a;
     padding: 0;
     overflow: hidden;
+    padding: 3%;
 }
 
 .interactive-content {
     margin: 0;
     display: block;
-    width: 60%;
+    width: 100%;
     overflow: hidden;
-    padding: 3%;
 }
 
-.interactive-video1 {
-    width: 100%;
-    align-items: center;
-}
-
-.interv1 {
-    width: 100%;
-    align-items: center;
-}
-
-.interactive-video2 {
-    width: 100%;
-    align-items: center;
-}
-
-.interv2 {
-    width: 100%;
-    margin: 0;
-    align-items: center;
-}
-
+.interactive-video1,
+.interactive-video2,
 .interactive-video3 {
     width: 100%;
     align-items: center;
+    gap: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
+.interv1,
+.interv2,
 .interv3 {
     width: 100%;
-    margin: 0;
-    align-items: center;
 }
 
 @media only screen and (max-width: 45rem) {
     .interactive-content {
         width: 80%;
+        padding: 3%;
+    }
+    .interactive-video1,
+    .interactive-video2,
+    .interactive-video3 {
+        display: block;
     }
 }
