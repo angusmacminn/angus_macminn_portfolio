@@ -50,11 +50,9 @@ iframe {
     }
     .enter-wrapper {
         display: block;
-        /* height: 100vh; */
     }
     video,
     .enterv2 {
-        /* width: 90%; */
         padding: 3% 0;
     }
 }
