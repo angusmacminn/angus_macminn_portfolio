@@ -100,11 +100,11 @@
         }
         
         .intro1>p {
-            transform: translateY(-20vh);
+            transform: translateY(-60%);
         }
         
         .intro2>p {
-            transform: translateY(20vh);
+            transform: translateY(60%);
         }
         
         h1 {
