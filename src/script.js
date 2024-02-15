@@ -5,6 +5,7 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
 import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader.js'
 import VertexShader from './shaders/vertex.glsl'
 import FragmentShader from './shaders/fragment.glsl'
+import GUI from 'lil-gui'
 
 document.addEventListener('DOMContentLoaded', function() {
 
@@ -16,7 +17,9 @@ document.addEventListener('DOMContentLoaded', function() {
      * Base
      */
     // Debug
-    //const gui = new dat.GUI()
+    const gui = new GUI()
+    gui.hide()
+
 
 
 
@@ -168,6 +171,12 @@ document.addEventListener('DOMContentLoaded', function() {
             scene.add(welcomeMesh)
             welcomeMesh.position.z = -3
             welcomeMesh.position.y = -0.2
+            gui
+                .add(welcomeMesh.position, 'y')
+                .min(-1)
+                .max(1)
+                .step(0.01)
+                .name("Welcome y position")
         })
 
 
@@ -199,6 +208,15 @@ document.addEventListener('DOMContentLoaded', function() {
             scene.add(AboutMeText)
             AboutMeText.position.z = -3
             AboutMeText.position.y = -8
+            gui
+                .add(AboutMeText.position, 'y')
+                .min(-10)
+                .max(10)
+                .step(0.01)
+                .name("About y position")
+                // if (window.innerHeight <= (window.innerWidth - 100)) {
+                //     AboutMeText.position.y = -7
+                // }
         }
     )
     const AboutMeMaterial = new THREE.MeshMatcapMaterial({ matcap: matcapTexture })
@@ -229,10 +247,19 @@ document.addEventListener('DOMContentLoaded', function() {
             )
             ProjectsTextGeometry.center()
 
-            const AboutMeText = new THREE.Mesh(ProjectsTextGeometry, ProjectsMaterial)
-            scene.add(AboutMeText)
-            AboutMeText.position.z = -3
-            AboutMeText.position.y = -17
+            const ProjectText = new THREE.Mesh(ProjectsTextGeometry, ProjectsMaterial)
+            scene.add(ProjectText)
+            ProjectText.position.z = -3
+            ProjectText.position.y = -17
+            gui
+                .add(ProjectText.position, 'y')
+                .min(-20)
+                .max(20)
+                .step(0.01)
+                .name("Project y position")
+                // if (window.innerHeight <= (window.innerWidth - 100)) {
+                //     ProjectText.position.y = -14
+                // }
         })
 
     // Material
@@ -263,6 +290,13 @@ document.addEventListener('DOMContentLoaded', function() {
             scene.add(ContactMeText)
             ContactMeText.position.z = -3
             ContactMeText.position.y = -38
+            gui
+                .add(ContactMeText.position, 'y')
+                .min(-50)
+                .max(50)
+                .step(0.01)
+                .name("Contact y position")
+
         })
     const ContactMeMaterial = new THREE.MeshMatcapMaterial({ matcap: matcapTexture })
     ContactMeMaterial.transparent = true
@@ -429,6 +463,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Base camera
     const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 10000)
+    gui
+        .add(camera.position, 'z')
+        .min(-10)
+        .max(10)
+        .step(0.01)
+        .name("camera z position")
 
     function resizeCamera() { // display initial z position based on window width
         if (window.innerWidth <= 700 && window.innerWidth > 510) {

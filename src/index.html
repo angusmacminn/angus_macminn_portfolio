@@ -110,34 +110,62 @@
 
 
     <script>
-        let tl = gsap.timeline({
+        gsap.set(".intro1", {
+            xPercent: -200
+        })
+        gsap.to(".intro1", {
+            xPercent: 0,
+            ease: 'power1.On',
+            duration: 0.65,
             scrollTrigger: {
-                trigger: '.intro1',
-                start: '-40% center',
-                end: '150% center',
-                scrub: false,
-                markers: true,
+                trigger: ".intro1",
+                start: "-40% center",
+                markers: false,
                 toggleActions: 'play reverse play reverse'
-
             }
         })
+        gsap.set(".intro2", {
+            xPercent: 200
+        })
+        gsap.to(".intro2", {
+                xPercent: 0,
+                ease: 'power1.On',
+                duration: 0.65,
+                scrollTrigger: {
+                    trigger: ".intro2",
+                    start: "-40% center",
+                    markers: false,
+                    toggleActions: 'play reverse play reverse'
+                }
+            })
+            //     let tl = gsap.timeline({
+            //         scrollTrigger: {
+            //             trigger: ".intro1",
+            //             start: '-40% center',
+            //             end: '150% center',
+            //             scrub: false,
+            //             markers: true,
+            //             toggleActions: 'play reverse play reverse'
+
+        //     }
+        // })
 
         // tl.to('.intro1', {
-        //     x: 650,
+        //     x: -650,
         //     duration: 0.65
         // })
 
-        let tl1 = gsap.timeline({
-            scrollTrigger: {
-                trigger: '.intro2',
-                start: '-50% center',
-                end: '100% center',
-                scrub: false,
-                markers: true,
-                toggleActions: 'play reverse play reverse'
-
-            }
-        })
+        // let tl1 = gsap.timeline({
+        //     scrollTrigger: {
+        //         trigger: '.intro2',
+        //         start: '-50% center',
+        //         end: '100% center',
+        //         scrub: false,
+        //         markers: true,
+        //         // toggleActions: 'play reverse play reverse'
+        //         toggleActions: 'play'
+        //     }
+        // })
 
         // tl1.to('.intro2', {
         //     x: -700,
