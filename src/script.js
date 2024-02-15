@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
      */
     // Debug
     const gui = new GUI()
+    gui.hide()
 
 
 
