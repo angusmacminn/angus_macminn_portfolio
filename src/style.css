@@ -99,14 +99,6 @@
             width: 25ch;
         }
         
-        .intro1>p {
-            transform: translateY(-20vh);
-        }
-        
-        .intro2>p {
-            transform: translateY(20vh);
-        }
-        
         h1 {
             font-size: 1.5rem;
             color: #acb1ba;
@@ -324,6 +316,12 @@
         /* Mobile */
         
         @media only screen and (max-width: 45rem) {
+            .intro1>p {
+                transform: translateY(-20vh);
+            }
+            .intro2>p {
+                transform: translateY(20vh);
+            }
             .enter_img,
             .human_img,
             .weather_img,
