@@ -1,5 +1,9 @@
 /* Interactive Art page */
 
+body {
+    background-color: #06337a;
+}
+
 .interactive-wrapper {
     background-color: #06337a;
     padding: 0;
