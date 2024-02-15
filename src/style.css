@@ -346,20 +346,13 @@
         }
         /* Ipad */
         
-        @media only screen and (max-width: 55rem) {
+        @media only screen and (max-width: 55rem) and (min-width:46rem) {
             .enter-link,
             .human-link,
             .weather-link,
             .interactive-link,
             .generative-link {
                 font-size: 4.2em;
-            }
-        }
-        
-        @media only screen and (min-width: 718px) and (max-width: 930px) {
-            html,
-            body {
-                background-color: #06337a;
             }
         }
         /* Contact */
