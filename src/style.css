@@ -98,14 +98,13 @@
             /* width: 70%; */
             width: 25ch;
         }
-        
-        .intro1>p {
+        /* .intro1>p {
             transform: translateY(-20vh);
         }
         
         .intro2>p {
             transform: translateY(20vh);
-        }
+        } */
         
         h1 {
             font-size: 1.5rem;
@@ -341,7 +340,7 @@
                 font-size: 2.2em;
             }
             .spacer {
-                height: 120vh;
+                height: 135vh;
             }
         }
         /* Ipad */
