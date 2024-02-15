@@ -98,13 +98,14 @@
             /* width: 70%; */
             width: 25ch;
         }
-        /* .intro1>p {
+        
+        .intro1>p {
             transform: translateY(-20vh);
         }
         
         .intro2>p {
             transform: translateY(20vh);
-        } */
+        }
         
         h1 {
             font-size: 1.5rem;
@@ -137,14 +138,15 @@
             /* width: 1ch; */
             /* width: clamp(2ch, 5ch, 10ch); */
         }
-        /* @media only screen and (min-width: 80rem) {
+        
+        @media only screen and (min-width: 120rem) {
             .spacer {
                 height: 73vh;
             }
             .half-space1 {
                 height: 0vh;
             }
-        } */
+        }
         /* Project */
         
         .vertical_content {
@@ -338,9 +340,6 @@
             .generative-link {
                 font-size: 2.2em;
             }
-            .spacer {
-                height: 135vh;
-            }
         }
         /* Ipad */
         
@@ -351,6 +350,13 @@
             .interactive-link,
             .generative-link {
                 font-size: 4.2em;
+            }
+        }
+        
+        @media only screen and (min-width: 718px) and (max-width: 930px) {
+            html,
+            body {
+                background-color: #06337a;
             }
         }
         /* Contact */
