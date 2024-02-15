@@ -43,7 +43,7 @@
         }
         
         .spacer {
-            height: 120vh;
+            height: 105vh;
         }
         
         .spacer1 {
@@ -139,14 +139,14 @@
             /* width: clamp(2ch, 5ch, 10ch); */
         }
         
-/*         @media only screen and (min-width: 120rem) {
+        @media only screen and (min-width: 120rem) {
             .spacer {
                 height: 73vh;
             }
             .half-space1 {
                 height: 0vh;
             }
-        } */
+        }
         /* Project */
         
         .vertical_content {
