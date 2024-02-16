@@ -251,7 +251,7 @@ document.addEventListener('DOMContentLoaded', function() {
             scene.add(ProjectText)
             ProjectText.position.z = -3
             ProjectText.position.y = -17
-            if (window.innerHeight >= 1500) {
+            if (window.innerWidth >= 1600) {
                 ProjectText.position.y = -17.5
             }
             gui
@@ -291,10 +291,9 @@ document.addEventListener('DOMContentLoaded', function() {
             ContactMeText.position.z = -3
             ContactMeText.position.y = -38
 
-            if (window.innerHeight >= 1500) {
+            if (window.innerWidth >= 1600) {
                 ContactMeText.position.y = -41
             }
-            
             gui
                 .add(ContactMeText.position, 'y')
                 .min(-50)
