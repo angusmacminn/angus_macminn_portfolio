@@ -187,7 +187,7 @@
         }
         
         .enter-link {
-            font-family: Atak;
+            font-family: Atak, sans-serif;
             text-decoration: none;
             font-size: 5em;
             font-weight: 900;
@@ -217,7 +217,7 @@
         }
         
         .human-link {
-            font-family: Atak;
+            font-family: Atak, sans-serif;
             font-size: 5em;
             font-weight: 900;
             color: #4d4d4d;
@@ -246,7 +246,7 @@
         }
         
         .weather-link {
-            font-family: Atak;
+            font-family: Atak, sans-serif;
             font-size: 5em;
             font-weight: 900;
             color: #4d4d4d;
@@ -275,7 +275,7 @@
         }
         
         .interactive-link {
-            font-family: Atak;
+            font-family: Atak, sans-serif;
             font-size: 5em;
             font-weight: 900;
             color: #4d4d4d;
@@ -304,7 +304,7 @@
         }
         
         .generative-link {
-            font-family: Atak;
+            font-family: Atak, sans-serif;
             font-size: 5em;
             font-weight: 900;
             color: #4d4d4d;
