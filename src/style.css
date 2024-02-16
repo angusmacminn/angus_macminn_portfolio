@@ -356,7 +356,7 @@
         
         @media only screen and (min-width: 100rem) {
             .spacer {
-                height: 65vh;
+                height: 55vh;
             }
             .half-space1 {
                 height: 0vh;
