@@ -134,6 +134,7 @@
         
         p {
             font-size: 3vw;
+            font-family: Atak;
             /* width: 1ch; */
             /* width: clamp(2ch, 5ch, 10ch); */
         }
