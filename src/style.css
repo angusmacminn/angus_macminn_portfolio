@@ -35,7 +35,7 @@
         
         @font-face {
             font-family: 'Atak';
-            src: url("/static/fonts/Atak_Regular.ttf") format('ttf');
+            src: url("/fonts/Atak_Regular.ttf") format('ttf');
             font-weight: normal;
             font-style: normal;
             font-display: swap;
