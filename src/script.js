@@ -250,16 +250,17 @@ document.addEventListener('DOMContentLoaded', function() {
             const ProjectText = new THREE.Mesh(ProjectsTextGeometry, ProjectsMaterial)
             scene.add(ProjectText)
             ProjectText.position.z = -3
-            ProjectText.position.y = -17
             gui
                 .add(ProjectText.position, 'y')
                 .min(-20)
                 .max(20)
                 .step(0.01)
                 .name("Project y position")
-                // if (window.innerHeight <= (window.innerWidth - 100)) {
-                //     ProjectText.position.y = -14
-                // }
+            if (window.innerHeight >= 1600) {
+                ProjectText.position.y = -17.5
+            } else {
+                ProjectText.position.y = -17
+            }
         })
 
     // Material
@@ -289,7 +290,12 @@ document.addEventListener('DOMContentLoaded', function() {
             const ContactMeText = new THREE.Mesh(ContactTextGeometry, ContactMeMaterial)
             scene.add(ContactMeText)
             ContactMeText.position.z = -3
-            ContactMeText.position.y = -38
+
+            if (window.innerHeight >= 1600) {
+                ContactMeText.position.y = -41
+            } else {
+                ContactMeText.position.y = -38
+            }
             gui
                 .add(ContactMeText.position, 'y')
                 .min(-50)
