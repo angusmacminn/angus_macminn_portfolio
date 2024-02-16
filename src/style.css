@@ -133,7 +133,7 @@
         }
         
         p {
-            font-size: 3vw;
+            font-size: 2.7vw;
             font-family: Atak, sans-serif;
             /* width: 1ch; */
             /* width: clamp(2ch, 5ch, 10ch); */
@@ -150,9 +150,9 @@
         
         .horizontal_content {
             display: flex;
-            /* position: relative;
-            top: 500px;
-            width: fit-content; */
+            /* position: relative; */
+            /* top: 500px; */
+            /* width: fit-content; */
         }
         
         .horizontal_item {
@@ -372,6 +372,9 @@
             .spacer {
                 height: 120vh;
             }
+            .horizontal_item:not(:last-child) {
+                margin-right: 0;
+            }
             .enter_img,
             .human_img,
             .weather_img,
@@ -397,6 +400,6 @@
             .weather-link,
             .interactive-link,
             .generative-link {
-                font-size: 4.2em;
+                font-size: 3.2em;
             }
         }
