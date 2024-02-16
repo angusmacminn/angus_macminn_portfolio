@@ -109,7 +109,7 @@
         h1 {
             font-size: 1.5rem;
             color: #acb1ba;
-            font-family: Atak;
+            font-family: Atak, sans-serif;
             position: relative;
             display: block;
             /* width: 30em; */
@@ -118,7 +118,7 @@
         h2 {
             font-size: 2vw;
             color: #ffffff;
-            font-family: Atak;
+            font-family: Atak, sans-serif;
             position: relative;
             /* width: 500px; */
         }
@@ -126,7 +126,7 @@
         h3 {
             font-size: 2vw;
             color: #acb1ba;
-            font-family: Atak;
+            font-family: Atak, sans-serif;
             position: relative;
             display: block;
             /* width: 300px; */
@@ -134,9 +134,13 @@
         
         p {
             font-size: 3vw;
-            font-family: Atak;
+            font-family: Atak, sans-serif;
             /* width: 1ch; */
             /* width: clamp(2ch, 5ch, 10ch); */
+        }
+        
+        a {
+            font-family: Atak, sans-serif;
         }
         /* Project */
         
