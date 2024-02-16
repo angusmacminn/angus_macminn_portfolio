@@ -138,15 +138,6 @@
             /* width: 1ch; */
             /* width: clamp(2ch, 5ch, 10ch); */
         }
-        
-        @media only screen and (min-width: 100rem) {
-            .spacer {
-                height: 73vh;
-            }
-            .half-space1 {
-                height: 0vh;
-            }
-        }
         /* Project */
         
         .vertical_content {
@@ -321,44 +312,6 @@
             text-decoration: none;
             transition: 500ms;
         }
-        /* Mobile */
-        
-        @media only screen and (max-width: 45rem) {
-            .enter_img,
-            .human_img,
-            .weather_img,
-            .interactive_img,
-            .generative_img {
-                width: 70vw;
-                height: 30vh;
-                /* transition: 1000ms; */
-            }
-            .enter-link,
-            .human-link,
-            .weather-link,
-            .interactive-link,
-            .generative-link {
-                font-size: 2.2em;
-            }
-        }
-        /* Ipad */
-        
-        @media only screen and (max-width: 55rem) and (min-width:46rem) {
-            .enter-link,
-            .human-link,
-            .weather-link,
-            .interactive-link,
-            .generative-link {
-                font-size: 4.2em;
-            }
-        }
-        
-        @media only screen and (min-width: 718px) and (max-width: 930px) {
-            html,
-            body {
-                background-color: #06337a;
-            }
-        }
         /* Contact */
         
         .contact-wrapper {
@@ -398,4 +351,45 @@
         .generative-link:hover,
         .insta-link:hover {
             color: #ffffff;
+        }
+        /* Big Screen */
+        
+        @media only screen and (min-width: 100rem) {
+            .spacer {
+                height: calc(73vh - 30vh);
+            }
+            .half-space1 {
+                height: 0vh;
+            }
+        }
+        /* Mobile */
+        
+        @media only screen and (max-width: 45rem) {
+            .enter_img,
+            .human_img,
+            .weather_img,
+            .interactive_img,
+            .generative_img {
+                width: 70vw;
+                height: 30vh;
+                /* transition: 1000ms; */
+            }
+            .enter-link,
+            .human-link,
+            .weather-link,
+            .interactive-link,
+            .generative-link {
+                font-size: 2.2em;
+            }
+        }
+        /* Ipad */
+        
+        @media only screen and (max-width: 55rem) and (min-width:46rem) {
+            .enter-link,
+            .human-link,
+            .weather-link,
+            .interactive-link,
+            .generative-link {
+                font-size: 4.2em;
+            }
         }
