@@ -16,7 +16,7 @@
         
         html {
             scroll-behavior: initial;
-            overflow: hidden;
+            overflow-x: hidden;
         }
         
         body {
