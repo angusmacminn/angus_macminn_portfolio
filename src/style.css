@@ -42,7 +42,7 @@
         }
         
         .spacer {
-            height: 120vh;
+            height: 102vh;
         }
         
         .spacer1 {
@@ -364,6 +364,9 @@
         /* Mobile */
         
         @media only screen and (max-width: 45rem) {
+            .spacer {
+                height: 120vh;
+            }
             .enter_img,
             .human_img,
             .weather_img,
