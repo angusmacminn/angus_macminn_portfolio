@@ -25,7 +25,7 @@ export default {
                 weather: resolve(__dirname, 'src/Weather_Page/weather_visualisation.html'),
                 intractive_art: resolve(__dirname, 'src/Interactive_Art_Page/interactive.html'),
                 generative: resolve(__dirname, 'src/Generative_Page/generative.html'),
-                docs: resolve(__dirname, 'src/docs/index.md')
+                documentation: resolve(__dirname, 'src/docs/index.md')
             },
         },
     },
