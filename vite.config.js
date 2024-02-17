@@ -24,8 +24,7 @@ export default {
                 human_nature: resolve(__dirname, 'src/Human_Nature_Page/human_nature.html'),
                 weather: resolve(__dirname, 'src/Weather_Page/weather_visualisation.html'),
                 intractive_art: resolve(__dirname, 'src/Interactive_Art_Page/interactive.html'),
-                generative: resolve(__dirname, 'src/Generative_Page/generative.html'),
-                documentation: resolve(__dirname, 'src/docs/index.md')
+                generative: resolve(__dirname, 'src/Generative_Page/generative.html')
             },
         },
     },
