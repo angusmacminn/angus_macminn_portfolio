@@ -9,7 +9,7 @@ body {
     background-color: #06337a;
     overflow-x: hidden;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+    grid-template-columns: 1fr 1fr;
     gap: 1%;
     padding: 3%;
 }
