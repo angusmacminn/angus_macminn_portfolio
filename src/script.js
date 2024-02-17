@@ -42,8 +42,6 @@ document.addEventListener('DOMContentLoaded', function() {
             const scrollPercantage = window.scrollY / (document.body.scrollHeight - window.innerHeight)
             const newColor = fromColor.clone().lerp(toColor, scrollPercantage)
             scene.background = newColor
-                //console.log(scene.background)
-                //console.log(newColor)
 
             // Update camera position based on scroll
             camera.position.y = window.scrollY * 0.01;
@@ -53,13 +51,9 @@ document.addEventListener('DOMContentLoaded', function() {
          */
     const textureLoader = new THREE.TextureLoader()
     const matcapTexture = textureLoader.load('/textures/matcaps/2.png')
-        // const texture = textureLoader.load('/textures/texture.jpg')
     const alpha = textureLoader.load('/textures/alpha.jpg')
-        // const alpha1 = textureLoader.load('/textures/alpha1.jpg')
-        // const alpha2 = textureLoader.load('/textures/alpha2.jpg')
     const height1 = textureLoader.load('/HeightMaps/HM1.jpg')
     const height = textureLoader.load('/textures/height1.jpg')
-        // const height2 = textureLoader.load('/HeightMaps/HM4.jpg')
 
 
     //Lenis smooth scroll
@@ -137,10 +131,6 @@ document.addEventListener('DOMContentLoaded', function() {
             text.position.y = 0.5
             text.material.opacity = 0.5
 
-            // text.scale.set(0.2, 0.2, 0.2)
-            // textResize(text)
-            // text.geometry.parameters.options.size = 2
-            // console.log(text.geometry.parameters.options.size);
         }
     )
 
@@ -180,10 +170,6 @@ document.addEventListener('DOMContentLoaded', function() {
         })
 
 
-
-
-
-
     //About Me text
     fontLoader.load(
         '/fonts/helvetiker_regular.typeface.json',
@@ -214,18 +200,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 .max(10)
                 .step(0.01)
                 .name("About y position")
-                // if (window.innerHeight <= (window.innerWidth - 100)) {
-                //     AboutMeText.position.y = -7
-                // }
         }
     )
     const AboutMeMaterial = new THREE.MeshMatcapMaterial({ matcap: matcapTexture })
     AboutMeMaterial.transparent = true
-
-
-
-
-
 
     //Projects Text
     fontLoader.load(
@@ -441,22 +419,11 @@ document.addEventListener('DOMContentLoaded', function() {
     })
 
 
-    // function textResize(text) {
-
-    //     if (text) {
-    //         text.scale.x = 0.5
-    //         text.scale.y = 0.5
-    //     }
-    // }
-
-
     //Cursor
     const cursor = {
         x: 0,
         y: 0
     }
-
-
 
     //Camera Move X axis
     window.addEventListener('mousemove', (event) => {
@@ -474,7 +441,8 @@ document.addEventListener('DOMContentLoaded', function() {
         .step(0.01)
         .name("camera z position")
 
-    function resizeCamera() { // display initial z position based on window width
+    function resizeCamera() {
+        // display initial z position based on window width
         if (window.innerWidth <= 700 && window.innerWidth > 510) {
             camera.position.z = 2.2
         } else if (window.innerWidth <= 510 && window.innerWidth > 390) {
