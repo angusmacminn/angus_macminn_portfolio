@@ -47,7 +47,7 @@
 
         <div class="horizontal_item">
             <div class="enter_img">
-                <a class="enter-link" href="./Enter_Page/enter.html"> Enter</a>
+                <a class="enter-link" href="./Enter_Page/enter.html"> Enter.</a>
             </div>
         </div>
 
@@ -127,66 +127,18 @@
         })
         gsap.set(".intro2", {
             xPercent: 200,
-            // yPercent: 50
         })
         gsap.to(".intro2", {
-                xPercent: 0,
-                ease: 'power1.On',
-                duration: 0.65,
-                scrollTrigger: {
-                    trigger: ".intro2",
-                    start: "-40% center",
-                    markers: false,
-                    toggleActions: 'play reverse play reverse'
-                }
-            })
-            // gsap.to("horizontal_content", {
-            //         x: () => innerWidth,
-            //         ease: "none",
-            //         scrollTrigger: {
-            //             trigger: "horizontal_content",
-            //             start: "-40% center",
-            //             // end: () => innerWidth * 4,
-            //             markers: true,
-            //             scrub: true,
-            //             pin: true,
-            //             invalidateOnRefresh: true,
-            //             anticipatePin: 1
-            //         }
-            //     })
-            //     let tl = gsap.timeline({
-            //         scrollTrigger: {
-            //             trigger: ".intro1",
-            //             start: '-40% center',
-            //             end: '150% center',
-            //             scrub: false,
-            //             markers: true,
-            //             toggleActions: 'play reverse play reverse'
-
-        //     }
-        // })
-
-        // tl.to('.intro1', {
-        //     x: -650,
-        //     duration: 0.65
-        // })
-
-        // let tl1 = gsap.timeline({
-        //     scrollTrigger: {
-        //         trigger: '.intro2',
-        //         start: '-50% center',
-        //         end: '100% center',
-        //         scrub: false,
-        //         markers: true,
-        //         // toggleActions: 'play reverse play reverse'
-        //         toggleActions: 'play'
-        //     }
-        // })
-
-        // tl1.to('.intro2', {
-        //     x: -700,
-        //     duration: 1
-        // })
+            xPercent: 0,
+            ease: 'power1.On',
+            duration: 0.65,
+            scrollTrigger: {
+                trigger: ".intro2",
+                start: "-40% center",
+                markers: false,
+                toggleActions: 'play reverse play reverse'
+            }
+        })
     </script>
 
 
