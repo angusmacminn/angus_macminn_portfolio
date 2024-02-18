@@ -71,7 +71,6 @@
         .intros {
             display: flex;
             background-color: transparent;
-            overflow-x: hidden;
         }
         
         .left-col {
@@ -136,6 +135,7 @@
         
         .horizontal_content {
             display: flex;
+            overflow-x: hidden;
         }
         
         .horizontal_item {
