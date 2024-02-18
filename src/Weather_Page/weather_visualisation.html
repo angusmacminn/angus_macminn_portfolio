@@ -8,31 +8,33 @@
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="./style.css">
 </head>
-<div class="weather-wrapper">
-    <div class="weather-content">
-        <h1> Live Weather Visualisation</h1>
-        <p>
-            TouchDesigner, Python, 2023
-        </p>
 
-        <p>
-            This was a personal project where I set out to use a weather API to create a real-time visualisation of cities weather conditions. This rendered video shows me changing between cities to showcase how different climates look.
-        </p>
+<body>
+    <div class="weather-wrapper">
+        <div class="weather-content">
+            <h1> Live Weather Visualisation</h1>
+            <p>
+                TouchDesigner, Python, 2023
+            </p>
 
-        <p>
-            The temperature, wind speed, and cloud coverage were the three variables I used that would affect the sphere in different ways, creating a unique visualisation for each city.
-        </p>
-    </div>
-    <div class="weather-videos">
-        <div class="weather-video">
-            <video playsinline class="wv1" autoplay loop muted>
+            <p>
+                This was a personal project where I set out to use a weather API to create a real-time visualisation of cities weather conditions. This rendered video shows me changing between cities to showcase how different climates look.
+            </p>
+
+            <p>
+                The temperature, wind speed, and cloud coverage were the three variables I used that would affect the sphere in different ways, creating a unique visualisation for each city.
+            </p>
+        </div>
+        <div class="weather-videos">
+            <div class="weather-video">
+                <video playsinline class="wv1" autoplay loop muted>
                 <source src ="//cdn-cf-east.streamable.com/video/mp4/anit45.mp4?Expires=1708207964119&Key-Pair-Id=APKAIEYUVEN4EVB2OKEQ&Signature=SlEuuqq6aCBxP3x7x0nq8SJjUjCW~Zq-E02-dVCdneF~X64d~xNInC0i2X4WphSdTC2bv8Z4VEE7tlK3K-p0Ly2iDqlu7EYnFWbdDqt8IO4XC8MVV4qBzXwpbQrnGC24G72m9pButrJl87-vem3eIaB5gh5r0f84FkEtVCzNak0mDZacEEjz~MBDoys0eoki~e3masYBlPOZZhMvS0pLud4~BBCVYzzDkACVc3c61Nho54GLu~c6WodcriepAySXlZLYA68sRTMOE78m-0eClgBQdwL-aDfk20lKl-EkC7mFzmJbUhrGXtQkqVF8BB7ExUR~2irTEr0wpqj6kAChig__">
                 Your browser does not support mov videos, change browsers!
             </video>
+            </div>
         </div>
     </div>
-
-</div>
+</body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
