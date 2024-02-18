@@ -1,6 +1,6 @@
 /*Weather page*/
 
-body {
+body.weather {
     background-color: #06337a;
     /* overflow-y: hidden; */
 }
