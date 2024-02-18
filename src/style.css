@@ -72,10 +72,6 @@
             display: flex;
             background-color: transparent;
         }
-        .intro1,
-        .intro2 {
-                position: absolute;
-        }
         
         .left-col {
             display: flex;
