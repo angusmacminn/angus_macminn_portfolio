@@ -8,11 +8,11 @@ body {
 .weather-wrapper {
     background-color: #06337a;
     overflow: hidden;
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1%;
     padding: 3%;
-    height: 100vh
 }
 
 .weather-content {
@@ -48,11 +48,5 @@ body {
         width: 100%;
         height: 100vh;
         padding: 0;
-    }
-}
-/* Ipad */
-@media only screen and (max-width: 55rem) and (min-width:45.1rem) {
-    .weather-wrapper {
-        height: 100vh; 
     }
 }
