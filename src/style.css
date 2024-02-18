@@ -23,23 +23,13 @@
             color: #ffffff;
             margin: 0;
         }
-
-        @keyframes changeBackgroundColor {
-                0% {
-                    background-color: #4c5c75; /* Initial background color */
-                }
-                100% {
-                    background-color: #06337a; /* Target background color */
-                }
-       }
         
         html,
         body {
             margin: 0;
             padding: 0;
             height: 100%;
-/*             background-color: #4c5c75; */
-            animation: changeBackgroundColor 10s forwards;
+            background-color: #4c5c75;
         }
         
         
