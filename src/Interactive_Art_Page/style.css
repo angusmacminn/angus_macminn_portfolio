@@ -1,6 +1,6 @@
 /* Interactive Art page */
 
-body {
+body.interactive_body {
     background-color: #06337a;
 }
 
