@@ -1,6 +1,5 @@
 /*Weather page*/
 
-html,
 body {
     background-color: #06337a;
     /* overflow-y: hidden; */
@@ -13,6 +12,7 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 1%;
     padding: 3%;
+    height: 100vh;      
 }
 
 .weather-content {
