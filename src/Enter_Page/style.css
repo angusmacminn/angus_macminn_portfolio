@@ -1,13 +1,13 @@
 /*Enter Page*/
 
-body.enter {
+body.enter_body {
     background-color: #06337a;
 }
 
 .enter-wrapper {
     background-color: #06337a;
     padding: 3%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1%;
