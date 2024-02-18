@@ -7,11 +7,12 @@ body {
 
 .weather-wrapper {
     background-color: #06337a;
-    overflow-x: hidden;
+    overflow: hidden;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1%;
-    padding: 3%;     
+    padding: 3%;
+    height: 100vh
 }
 
 .weather-content {
