@@ -4,7 +4,8 @@
 1. [HTML](#html)
 2. [CSS](#css)
 3. [JS](#js)
-4. [Resources](#resources)
+4. [Github](#github)
+5. [Resources](#resources)
 
 ### HTML
 ```html
@@ -60,6 +61,52 @@ if (window.innerWidth >= 1600) {
 }
 ```
 I also decided to add specific condition when it comes to positioning some 3D texts based on width.
+
+### Github
+
+![Capture d’écran 2024-02-20 165241](https://github.com/angusmacminn/angus_macminn_portfolio/assets/99765449/17aef4fd-2460-49f9-b1bf-c3f89242eb5a)
+
+![Capture d’écran 2024-02-20 165613](https://github.com/angusmacminn/angus_macminn_portfolio/assets/99765449/74a29157-645c-4889-918d-9896a1f229fd)
+
+`git clone` plus the url of repository we copied in our case it's `https://github.com/angusmacminn/angus_macminn_portfolio.git`.
+
+After cloning the repository we will be directed automatically to main branch.
+
+![Capture d’écran 2024-02-20 170007](https://github.com/angusmacminn/angus_macminn_portfolio/assets/99765449/a3a4f687-88ea-4090-bda9-ecbfee24c3c0)
+
+Now we can edit the code and save it then apply these commands in order.
+1. `git add .`
+2. `git commit -m "Message"`
+3. `git push`
+
+We can also make a new branch to edit the code so it doesn't impact source code till we merge the pull request.
+
+![Capture d’écran 2024-02-20 170247](https://github.com/angusmacminn/angus_macminn_portfolio/assets/99765449/b861607c-ee32-4591-9cc8-8a62180768c7)
+
+After creating the issue we will click on create a branch specific for that issue.
+
+![Capture d’écran 2024-02-20 170445](https://github.com/angusmacminn/angus_macminn_portfolio/assets/99765449/af917a84-5440-4f78-a147-0e3c5e534d3d)
+
+After creating the new branch we will copy the commands and past them on terminal.
+
+![Capture d’écran 2024-02-20 170639](https://github.com/angusmacminn/angus_macminn_portfolio/assets/99765449/0659be66-1140-4731-91ef-ba2df82a63be)
+
+We can see the we are on a new branch on terminal.
+
+![Capture d’écran 2024-02-20 170805](https://github.com/angusmacminn/angus_macminn_portfolio/assets/99765449/9a165052-6aa5-4de7-85f1-043a7d790ace)
+
+Now we can edit code without affecting the main branch, and after finishing our changes we will push them using the 3 commands I shared earlier.
+
+Then we will have to merge the pull request on github.
+
+After that we can visit the repository online and we will fin this notification. then we will click on `Compare & pull request`.
+
+![Capture d’écran 2024-02-20 171113](https://github.com/angusmacminn/angus_macminn_portfolio/assets/99765449/2f9ac3df-ffd4-49a9-a75d-240399f20b5d)
+
+After that we will be directed to another page where will will select `create pull request` then directed to a second page where we will select `merge pull request`.
+
+
+
 
 ### Resources
 To learn more about Website responsivness you can visit [web.dev](https://web.dev/learn/design#article-https://web.dev/learn/design/welcome)
