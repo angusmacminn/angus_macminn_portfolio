@@ -441,8 +441,10 @@ document.addEventListener('DOMContentLoaded', function() {
         .step(0.01)
         .name("camera z position")
 
+    /**
+     * display initial z position based on window width
+     */
     function resizeCamera() {
-        // display initial z position based on window width
         if (window.innerWidth <= 700 && window.innerWidth > 510) {
             camera.position.z = 2.2
         } else if (window.innerWidth <= 510 && window.innerWidth > 390) {
