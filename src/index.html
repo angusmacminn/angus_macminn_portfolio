@@ -20,20 +20,22 @@
 
     <main>
         <div class="intros">
-            <div class="left-col">
-                <div class="intro1">
-                    <p>I am an interactive artist and designer currently based in Montreal. I hold a Bachelors degree in Digital Communications from Humber College.
-                    </p>
-                </div>
+            <div class="intro1">
+                <p>I am an interactive artist and designer currently based in Montreal. I hold a Bachelors degree in Digital Communications from Humber College.</p>
             </div>
 
-            <div class="right-col">
-                <div class="intro2">
-                    <p>I have a passion for creating interactive experiences that engange users in immersive settings, whether it be a physical space, or digital.
-                        <p>
-                </div>
+            <div class="intro2">
+                <p>I have a passion for creating interactive experiences that engage users in immersive settings, whether it be a physical space or digital.</p>
+            </div>
+
+            <div class="intro3">
+                <p>I am well experienced with Touchdesigner, GLSL, HTML, CSS, Three.js, and WebGL.</p>
             </div>
         </div>
+
+        
+
+
     </main>
 
 
@@ -85,20 +87,22 @@
 
 
     <div class="contact-wrapper">
-        <div class="email">
+
+        
+
+        <div class="contact-item">
             <h2>
                 To get in touch, you can reach me at angus13@hotmail.ca
             </h2>
         </div>
-
-        <div class="instagram">
+    
+        <div class="contact-item">
             <h2>
-                To see more of my work, check out my instagram at <a href="https://www.instagram.com/angus.macminn/" class="insta-link">@angus.macminn</a>
+                To see more of my work, check out my Instagram at <a href="https://www.instagram.com/angus.macminn/" class="insta-link">@angus.macminn</a>
             </h2>
         </div>
 
-
-
+        <div class="contact-pic"></div>
     </div>
 
 
@@ -125,6 +129,8 @@
                 toggleActions: 'play reverse play reverse'
             }
         })
+
+
         gsap.set(".intro2", {
             xPercent: 200,
         })
@@ -134,6 +140,21 @@
             duration: 0.65,
             scrollTrigger: {
                 trigger: ".intro2",
+                start: "-40% center",
+                markers: false,
+                toggleActions: 'play reverse play reverse'
+            }
+        })
+
+        gsap.set(".intro3", {
+            xPercent: -200,
+        })
+        gsap.to(".intro3", {
+            xPercent: 0,
+            ease: 'power1.On',
+            duration: 0.65,
+            scrollTrigger: {
+                trigger: ".intro3",
                 start: "-40% center",
                 markers: false,
                 toggleActions: 'play reverse play reverse'
