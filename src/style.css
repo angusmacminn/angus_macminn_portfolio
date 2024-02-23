@@ -68,33 +68,39 @@
             transform: translateY(100vh);
         }
         
-        .intros {
+        .intro1,
+        .intro2,
+        .intro3 {
             display: flex;
-            background-color: transparent;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px; /* Adjust the margin as needed */
         }
         
-        .left-col {
-            display: flex;
-            position: relative;
-        }
-        
-        .right-col {
-            display: flex;
-            position: relative;
+        .intro p {
+            width: 25ch;
         }
         
         .intro1>p,
-        .intro2>p {
+        .intro2>p,
+        .intro3>p {
             width: 25ch;
         }
         
         .intro1>p {
-            transform: translateY(-60%);
+            transform: translateY(30%);
         }
         
         .intro2>p {
+            transform: translateY(40%);
+        }
+
+        .intro3>p {
             transform: translateY(60%);
         }
+
+        
+        
         
         h1 {
             font-size: 1.5rem;
@@ -213,16 +219,33 @@
         
         .contact-wrapper {
             display: flex;
+            flex-direction: column; /* Stack items vertically */
+            align-items: center;
+            justify-content: center;
             position: relative;
             overflow: hidden;
             width: 100%;
-            top: -5vh;
+            top: -50%;
         }
+
+
+
+        .contact-pic {
+            background-image: url(../static/Images/angus_portfolio_pic.jpg);
+            background-size: cover;
+            background-position: center; /* You can adjust this based on your preference */
+            width: 75%;
+            scale: 50%;
+            padding-bottom: 50%;
+            border-radius: 20px;
+        }
+
         
-        .email {
+        .contact-item {
             margin: 0;
             padding-left: 3%;
             width: 100%;
+            text-align: center;
             text-decoration: none;
         }
         
