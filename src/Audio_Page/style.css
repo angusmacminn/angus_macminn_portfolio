@@ -1,61 +1,62 @@
-body.generative_body {
+body.audio_body {
     background-color: #06337a;
 }
 
-.generative-wrapper {
+.audio-wrapper {
     background-color: #06337a;
     padding: 0;
     overflow: hidden;
 }
 
-.generative-content {
+.audio-content {
     margin: 0;
     padding: 5%;
     overflow: hidden;
     width: 80%;
 }
 
-.generative-video1 {
+.audio-video1 {
     align-items: center;
     padding-left: 15%;
 }
 
-.genv1 {
+.av1 {
     width: 100%;
 }
 
-.generative-video2 {
+.audio-video2 {
     align-items: center;
     padding-left: 15%
 }
 
-.genv2 {
+.av2 {
     width: 100%;
 }
 
-.generative-video3 {
+.audio-video3 {
     align-items: center;
     padding-left: 15%
 }
 
-.genv3 {
+.av3 {
     width: 100%;
 }
 
-.generative-video4 {
+.audio-video4 {
     align-items: center;
     padding-left: 15%
 }
 
-.genv4 {
+.av4 {
     width: 100%;
 }
 
-.generative-video5 {
+.audio-video5 {
     align-items: center;
     padding-left: 15%
 }
 
-.genv5 {
+.av5 {
     width: 100%;
 }
+
