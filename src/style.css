@@ -124,6 +124,16 @@
             position: relative;
             display: block;
         }
+
+        h4 {
+            font-size: 1vw;
+            color: #acb1ba;
+            font-family: Atak, sans-serif;
+            position: relative;
+            display: block;
+            text-align: center;
+            
+        }
         
         p {
             font-size: 2.7vw;
@@ -161,7 +171,8 @@
         .human_img,
         .weather_img,
         .interactive_img,
-        .generative_img {
+        .generative_img,
+        .audio_img {
             width: 50vw;
             height: 45vh;
             /* background-image: url(../static/Images/Enter_screenshot9.jpg); */
@@ -182,7 +193,8 @@
         .human-link,
         .weather-link,
         .interactive-link,
-        .generative-link {
+        .generative-link,
+        .audio-link {
             font-family: Atak, sans-serif;
             font-size: 4.7em;
             font-weight: 900;
@@ -214,6 +226,10 @@
         
         .generative_img {
             background-image: url(../static/Images/generative_screenshot2.jpg);
+        }
+
+        .audio_img {
+            background-image: url(../static/Images/audio1.jpg);
         }
         /* Contact */
         
@@ -260,7 +276,8 @@
         .human_img:hover,
         .weather_img:hover,
         .interactive_img:hover,
-        .generative_img:hover {
+        .generative_img:hover,
+        .audio_img:hover {
             opacity: 100%;
         }
         
@@ -269,6 +286,7 @@
         .weather-link:hover,
         .interactive-link:hover,
         .generative-link:hover,
+        .audio-link:hover,
         .insta-link:hover {
             color: #ffffff;
         }
@@ -295,7 +313,8 @@
             .human_img,
             .weather_img,
             .interactive_img,
-            .generative_img {
+            .generative_img,
+            .audio_img {
                 width: 70vw;
                 height: 30vh;
             }
@@ -303,7 +322,8 @@
             .human-link,
             .weather-link,
             .interactive-link,
-            .generative-link {
+            .generative-link,
+            .audio-link {
                 font-size: 2.2em;
             }
         }
@@ -314,7 +334,8 @@
             .human-link,
             .weather-link,
             .interactive-link,
-            .generative-link {
+            .generative-link,
+            .audio-link {
                 font-size: 3.2em;
             }
         }
